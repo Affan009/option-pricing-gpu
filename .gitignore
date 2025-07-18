@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.o
+*.so
+*.dll
+*.exe
+*.pyd
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors (optional)
+.vscode/
+.idea/
