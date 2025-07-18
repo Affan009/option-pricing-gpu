@@ -8,8 +8,6 @@ A high-performance, CUDA-accelerated Monte Carlo simulator for pricing European,
 - Asian Option Pricing (Arithmetic Average)  
 - Barrier Option Pricing (Up-and-Out, Down-and-Out)  
 - GPU acceleration using CUDA  
-- Easily callable from Python  
-- Compatible with Google Colab (for testing)
 
 ---
 
@@ -18,9 +16,8 @@ A high-performance, CUDA-accelerated Monte Carlo simulator for pricing European,
 ### Requirements
 
 - Python 3.8+
-- CUDA Toolkit (>=11.0)
-- PyTorch (with CUDA support)
-- A GPU with CUDA support
+- CUDA Toolkit (12.9)
+- PyTorch (with Appropriate CUDA version support)
 
 ### Build Extension
 
